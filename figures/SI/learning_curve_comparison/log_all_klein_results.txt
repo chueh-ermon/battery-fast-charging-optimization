@@ -1,0 +1,392 @@
+(41, 2159) (88519,) (88519,)
+(41, 80)
+max t, min t 0.8636 0.0004 2157 17743
+(27563,) (41, 2159) (41, 80) (88519, 80) (88519,) (27563, 81) (27563,)
+(42, 2235) (93870,) (93870,)
+(42, 80)
+max t, min t 0.894 0.0004 4083 19949
+(30288,) (42, 2235) (42, 80) (93870, 80) (93870,) (30288, 81) (30288,)
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Clearing list of sampled weights.
+Step      100 : NLL =  3.0039e+00 MSE = 1.1433e-02 Time =  3.42
+Step      200 : NLL =  1.0961e+00 MSE = 7.7494e-03 Time =  6.51
+Step      300 : NLL =  2.6267e-02 MSE = 5.6207e-03 Time =  9.40
+Step      400 : NLL = -3.6733e-01 MSE = 4.8909e-03 Time = 12.24
+Step      500 : NLL = -6.6832e-03 MSE = 5.9335e-03 Time = 15.48
+Step      600 : NLL = -6.8400e-01 MSE = 4.4076e-03 Time = 18.01
+Step      700 : NLL =  7.3620e-01 MSE = 8.3140e-03 Time = 21.13
+Step      800 : NLL = -1.1005e+00 MSE = 3.5204e-03 Time = 24.19
+Step      900 : NLL = -6.2029e-01 MSE = 4.9914e-03 Time = 26.73
+Step     1000 : NLL = -9.3531e-01 MSE = 4.1899e-03 Time = 29.68
+Step     1100 : NLL = -1.0002e+00 MSE = 4.0862e-03 Time = 32.73
+Step     1200 : NLL = -1.4536e+00 MSE = 2.7141e-03 Time = 35.51
+Step     1300 : NLL = -1.5983e+00 MSE = 2.2690e-03 Time = 38.68
+Step     1400 : NLL = -1.7196e+00 MSE = 1.8700e-03 Time = 41.46
+Step     1500 : NLL = -1.6696e+00 MSE = 2.0472e-03 Time = 43.87
+Step     1600 : NLL = -1.7218e+00 MSE = 1.8672e-03 Time = 46.93
+Step     1700 : NLL = -1.7605e+00 MSE = 1.7307e-03 Time = 50.09
+Step     1800 : NLL = -1.7967e+00 MSE = 1.6035e-03 Time = 52.71
+Step     1900 : NLL = -1.7539e+00 MSE = 1.7541e-03 Time = 55.70
+Step     2000 : NLL = -1.7965e+00 MSE = 1.6069e-03 Time = 58.78
+Step     2100 : NLL = -1.6056e+00 MSE = 2.2667e-03 Time = 61.79
+Step     2200 : NLL = -1.7422e+00 MSE = 1.7951e-03 Time = 65.16
+Step     2300 : NLL = -1.3520e+00 MSE = 3.1671e-03 Time = 68.05
+Step     2400 : NLL = -1.6926e+00 MSE = 1.9756e-03 Time = 71.11
+Step     2500 : NLL = -1.2707e+00 MSE = 3.5364e-03 Time = 74.32
+Step     2600 : NLL = -1.7715e+00 MSE = 1.6854e-03 Time = 77.06
+Step     2700 : NLL = -1.5670e+00 MSE = 2.4367e-03 Time = 80.42
+Step     2800 : NLL = -1.6823e+00 MSE = 2.0169e-03 Time = 83.72
+Step     2900 : NLL = -1.8093e+00 MSE = 1.5485e-03 Time = 86.95
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+Step      100 : NLL = -1.8577e+00 MSE = 1.3756e-03 Samples= 0 Time =  4.24
+Step      200 : NLL = -1.8727e+00 MSE = 1.3319e-03 Samples= 1 Time =  8.61
+DEBUG:root:Predicting with 2 networks.
+Step      300 : NLL = -1.8665e+00 MSE = 1.3496e-03 Samples= 2 Time = 13.00
+DEBUG:root:Predicting with 3 networks.
+Step      400 : NLL = -1.8688e+00 MSE = 1.3428e-03 Samples= 3 Time = 17.31
+DEBUG:root:Predicting with 4 networks.
+Step      500 : NLL = -1.8699e+00 MSE = 1.3397e-03 Samples= 4 Time = 22.06
+DEBUG:root:Predicting with 5 networks.
+Step      600 : NLL = -1.8705e+00 MSE = 1.3380e-03 Samples= 5 Time = 26.87
+DEBUG:root:Predicting with 6 networks.
+Step      700 : NLL = -1.8709e+00 MSE = 1.3369e-03 Samples= 6 Time = 32.03
+DEBUG:root:Predicting with 7 networks.
+Step      800 : NLL = -1.8711e+00 MSE = 1.3361e-03 Samples= 7 Time = 36.77
+DEBUG:root:Predicting with 8 networks.
+Step      900 : NLL = -1.8713e+00 MSE = 1.3355e-03 Samples= 8 Time = 41.89
+DEBUG:root:Predicting with 9 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 9 networks.
+Step      100 : NLL = -1.8715e+00 MSE = 1.3351e-03 Samples= 9 Time =  5.27
+DEBUG:root:Predicting with 10 networks.
+Step      200 : NLL = -1.8716e+00 MSE = 1.3348e-03 Samples= 10 Time = 10.45
+DEBUG:root:Predicting with 11 networks.
+Step      300 : NLL = -1.8717e+00 MSE = 1.3345e-03 Samples= 11 Time = 16.02
+DEBUG:root:Predicting with 12 networks.
+Step      400 : NLL = -1.8718e+00 MSE = 1.3343e-03 Samples= 12 Time = 21.71
+DEBUG:root:Predicting with 13 networks.
+Step      500 : NLL = -1.8719e+00 MSE = 1.3341e-03 Samples= 13 Time = 26.91
+DEBUG:root:Predicting with 14 networks.
+Step      600 : NLL = -1.8719e+00 MSE = 1.3339e-03 Samples= 14 Time = 32.39
+DEBUG:root:Predicting with 15 networks.
+Step      700 : NLL = -1.8720e+00 MSE = 1.3338e-03 Samples= 15 Time = 37.87
+DEBUG:root:Predicting with 16 networks.
+Step      800 : NLL = -1.8720e+00 MSE = 1.3337e-03 Samples= 16 Time = 43.48
+DEBUG:root:Predicting with 17 networks.
+Step      900 : NLL = -1.8721e+00 MSE = 1.3336e-03 Samples= 17 Time = 48.61
+DEBUG:root:Predicting with 18 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 18 networks.
+Step      100 : NLL = -1.8721e+00 MSE = 1.3335e-03 Samples= 18 Time =  5.78
+DEBUG:root:Predicting with 19 networks.
+Step      200 : NLL = -1.8721e+00 MSE = 1.3334e-03 Samples= 19 Time = 10.85
+DEBUG:root:Predicting with 20 networks.
+Step      300 : NLL = -1.8722e+00 MSE = 1.3333e-03 Samples= 20 Time = 16.71
+DEBUG:root:Predicting with 21 networks.
+Step      400 : NLL = -1.8722e+00 MSE = 1.3332e-03 Samples= 21 Time = 22.80
+DEBUG:root:Predicting with 22 networks.
+Step      500 : NLL = -1.8722e+00 MSE = 1.3332e-03 Samples= 22 Time = 28.43
+DEBUG:root:Predicting with 23 networks.
+Step      600 : NLL = -1.8722e+00 MSE = 1.3331e-03 Samples= 23 Time = 34.31
+DEBUG:root:Predicting with 24 networks.
+Step      700 : NLL = -1.8722e+00 MSE = 1.3331e-03 Samples= 24 Time = 40.25
+DEBUG:root:Predicting with 25 networks.
+Step      800 : NLL = -1.8723e+00 MSE = 1.3330e-03 Samples= 25 Time = 45.67
+DEBUG:root:Predicting with 26 networks.
+Step      900 : NLL = -1.8723e+00 MSE = 1.3330e-03 Samples= 26 Time = 51.77
+DEBUG:root:Predicting with 27 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 27 networks.
+Step      100 : NLL = -1.8723e+00 MSE = 1.3329e-03 Samples= 27 Time =  6.09
+DEBUG:root:Predicting with 28 networks.
+Step      200 : NLL = -1.8723e+00 MSE = 1.3329e-03 Samples= 28 Time = 12.29
+DEBUG:root:Predicting with 29 networks.
+Step      300 : NLL = -1.8723e+00 MSE = 1.3329e-03 Samples= 29 Time = 19.15
+DEBUG:root:Predicting with 30 networks.
+Step      400 : NLL = -1.8723e+00 MSE = 1.3328e-03 Samples= 30 Time = 25.31
+DEBUG:root:Predicting with 31 networks.
+Step      500 : NLL = -1.8723e+00 MSE = 1.3328e-03 Samples= 31 Time = 31.76
+DEBUG:root:Predicting with 32 networks.
+Step      600 : NLL = -1.8724e+00 MSE = 1.3328e-03 Samples= 32 Time = 38.34
+DEBUG:root:Predicting with 33 networks.
+Step      700 : NLL = -1.8724e+00 MSE = 1.3327e-03 Samples= 33 Time = 45.34
+DEBUG:root:Predicting with 34 networks.
+Step      800 : NLL = -1.8724e+00 MSE = 1.3327e-03 Samples= 34 Time = 52.43
+DEBUG:root:Predicting with 35 networks.
+Step      900 : NLL = -1.8724e+00 MSE = 1.3327e-03 Samples= 35 Time = 59.10
+DEBUG:root:Predicting with 36 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 36 networks.
+Step      100 : NLL = -1.8724e+00 MSE = 1.3327e-03 Samples= 36 Time =  6.67
+DEBUG:root:Predicting with 37 networks.
+Step      200 : NLL = -1.8724e+00 MSE = 1.3326e-03 Samples= 37 Time = 13.63
+DEBUG:root:Predicting with 38 networks.
+Step      300 : NLL = -1.8724e+00 MSE = 1.3326e-03 Samples= 38 Time = 21.01
+DEBUG:root:Predicting with 39 networks.
+Step      400 : NLL = -1.8724e+00 MSE = 1.3326e-03 Samples= 39 Time = 27.93
+DEBUG:root:Predicting with 40 networks.
+Step      500 : NLL = -1.8724e+00 MSE = 1.3326e-03 Samples= 40 Time = 34.80
+DEBUG:root:Predicting with 41 networks.
+Step      600 : NLL = -1.8724e+00 MSE = 1.3326e-03 Samples= 41 Time = 42.19
+DEBUG:root:Predicting with 42 networks.
+Step      700 : NLL = -1.8724e+00 MSE = 1.3326e-03 Samples= 42 Time = 49.28
+DEBUG:root:Predicting with 43 networks.
+Step      800 : NLL = -1.8724e+00 MSE = 1.3325e-03 Samples= 43 Time = 56.16
+DEBUG:root:Predicting with 44 networks.
+Step      900 : NLL = -1.8724e+00 MSE = 1.3325e-03 Samples= 44 Time = 63.30
+DEBUG:root:Predicting with 45 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 45 networks.
+Step      100 : NLL = -1.8724e+00 MSE = 1.3325e-03 Samples= 45 Time =  7.60
+DEBUG:root:Predicting with 46 networks.
+Step      200 : NLL = -1.8724e+00 MSE = 1.3325e-03 Samples= 46 Time = 14.67
+DEBUG:root:Predicting with 47 networks.
+Step      300 : NLL = -1.8725e+00 MSE = 1.3325e-03 Samples= 47 Time = 22.35
+DEBUG:root:Predicting with 48 networks.
+Step      400 : NLL = -1.8725e+00 MSE = 1.3325e-03 Samples= 48 Time = 29.70
+DEBUG:root:Predicting with 49 networks.
+Step      500 : NLL = -1.8725e+00 MSE = 1.3325e-03 Samples= 49 Time = 37.38
+DEBUG:root:Predicting with 50 networks.
+Step      600 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 50 Time = 45.30
+DEBUG:root:Predicting with 51 networks.
+Step      700 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 51 Time = 53.48
+DEBUG:root:Predicting with 52 networks.
+Step      800 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 52 Time = 61.85
+DEBUG:root:Predicting with 53 networks.
+Step      900 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 53 Time = 70.22
+DEBUG:root:Predicting with 54 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 54 networks.
+Step      100 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 54 Time =  7.51
+DEBUG:root:Predicting with 55 networks.
+Step      200 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 55 Time = 15.74
+DEBUG:root:Predicting with 56 networks.
+Step      300 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 56 Time = 23.05
+DEBUG:root:Predicting with 57 networks.
+Step      400 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 57 Time = 31.97
+DEBUG:root:Predicting with 58 networks.
+Step      500 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 58 Time = 41.21
+DEBUG:root:Predicting with 59 networks.
+Step      600 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 59 Time = 49.96
+DEBUG:root:Predicting with 60 networks.
+Step      700 : NLL = -1.8725e+00 MSE = 1.3324e-03 Samples= 60 Time = 58.34
+DEBUG:root:Predicting with 61 networks.
+Step      800 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 61 Time = 66.77
+DEBUG:root:Predicting with 62 networks.
+Step      900 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 62 Time = 75.15
+DEBUG:root:Predicting with 63 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 63 networks.
+Step      100 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 63 Time =  8.82
+DEBUG:root:Predicting with 64 networks.
+Step      200 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 64 Time = 17.51
+DEBUG:root:Predicting with 65 networks.
+Step      300 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 65 Time = 26.00
+DEBUG:root:Predicting with 66 networks.
+Step      400 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 66 Time = 34.68
+DEBUG:root:Predicting with 67 networks.
+Step      500 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 67 Time = 42.97
+DEBUG:root:Predicting with 68 networks.
+Step      600 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 68 Time = 51.59
+DEBUG:root:Predicting with 69 networks.
+Step      700 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 69 Time = 60.46
+DEBUG:root:Predicting with 70 networks.
+Step      800 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 70 Time = 69.21
+DEBUG:root:Predicting with 71 networks.
+Step      900 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 71 Time = 77.71
+DEBUG:root:Predicting with 72 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 72 networks.
+Step      100 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 72 Time =  8.51
+DEBUG:root:Predicting with 73 networks.
+Step      200 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 73 Time = 17.48
+DEBUG:root:Predicting with 74 networks.
+Step      300 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 74 Time = 26.20
+DEBUG:root:Predicting with 75 networks.
+Step      400 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 75 Time = 35.31
+DEBUG:root:Predicting with 76 networks.
+Step      500 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 76 Time = 45.27
+DEBUG:root:Predicting with 77 networks.
+Step      600 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 77 Time = 54.17
+DEBUG:root:Predicting with 78 networks.
+Step      700 : NLL = -1.8725e+00 MSE = 1.3323e-03 Samples= 78 Time = 63.74
+DEBUG:root:Predicting with 79 networks.
+Step      800 : NLL = -1.8725e+00 MSE = 1.3322e-03 Samples= 79 Time = 73.36
+DEBUG:root:Predicting with 80 networks.
+Step      900 : NLL = -1.8725e+00 MSE = 1.3322e-03 Samples= 80 Time = 82.91
+DEBUG:root:Predicting with 81 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 81 networks.
+Step      100 : NLL = -1.8725e+00 MSE = 1.3322e-03 Samples= 81 Time = 10.42
+DEBUG:root:Predicting with 82 networks.
+Step      200 : NLL = -1.8725e+00 MSE = 1.3322e-03 Samples= 82 Time = 19.77
+DEBUG:root:Predicting with 83 networks.
+Step      300 : NLL = -1.8725e+00 MSE = 1.3322e-03 Samples= 83 Time = 28.72
+DEBUG:root:Predicting with 84 networks.
+Step      400 : NLL = -1.8725e+00 MSE = 1.3322e-03 Samples= 84 Time = 38.65
+DEBUG:root:Predicting with 85 networks.
+Step      500 : NLL = -1.8725e+00 MSE = 1.3322e-03 Samples= 85 Time = 49.16
+DEBUG:root:Predicting with 86 networks.
+Step      600 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 86 Time = 59.38
+DEBUG:root:Predicting with 87 networks.
+Step      700 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 87 Time = 70.30
+DEBUG:root:Predicting with 88 networks.
+Step      800 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 88 Time = 82.90
+DEBUG:root:Predicting with 89 networks.
+Step      900 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 89 Time = 96.22
+DEBUG:root:Predicting with 90 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 90 networks.
+Step      100 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 90 Time = 12.17
+DEBUG:root:Predicting with 91 networks.
+Step      200 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 91 Time = 21.46
+DEBUG:root:Predicting with 92 networks.
+Step      300 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 92 Time = 30.82
+DEBUG:root:Predicting with 93 networks.
+Step      400 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 93 Time = 40.58
+DEBUG:root:Predicting with 94 networks.
+Step      500 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 94 Time = 51.17
+DEBUG:root:Predicting with 95 networks.
+Step      600 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 95 Time = 61.52
+DEBUG:root:Predicting with 96 networks.
+Step      700 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 96 Time = 72.63
+DEBUG:root:Predicting with 97 networks.
+Step      800 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 97 Time = 82.23
+DEBUG:root:Predicting with 98 networks.
+Step      900 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 98 Time = 93.79
+DEBUG:root:Predicting with 99 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 99 networks.
+Step      100 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 99 Time = 11.74
+DEBUG:root:Predicting with 100 networks.
+Step      200 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 100 Time = 24.05
+DEBUG:root:Predicting with 101 networks.
+Step      300 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 101 Time = 35.31
+DEBUG:root:Predicting with 102 networks.
+Step      400 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 102 Time = 45.99
+DEBUG:root:Predicting with 103 networks.
+Step      500 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 103 Time = 56.81
+DEBUG:root:Predicting with 104 networks.
+Step      600 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 104 Time = 67.77
+DEBUG:root:Predicting with 105 networks.
+Step      700 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 105 Time = 79.59
+DEBUG:root:Predicting with 106 networks.
+Step      800 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 106 Time = 90.95
+DEBUG:root:Predicting with 107 networks.
+Step      900 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 107 Time = 102.30
+DEBUG:root:Predicting with 108 networks.
+Validate : NLL =         nan MSE = nan
+DEBUG:root:Training started.
+DEBUG:root:Processing 27563 training datapoints  with 81 dimensions each.
+DEBUG:root:Predicting with 108 networks.
+Step      100 : NLL = -1.8726e+00 MSE = 1.3322e-03 Samples= 108 Time = 11.54
+DEBUG:root:Predicting with 109 networks.
+Step      200 : NLL = -1.8726e+00 MSE = 1.3321e-03 Samples= 109 Time = 23.22
+DEBUG:root:Predicting with 110 networks.
+Step      300 : NLL = -1.8726e+00 MSE = 1.3321e-03 Samples= 110 Time = 35.49
+DEBUG:root:Predicting with 111 networks.
+Step      400 : NLL = -1.8726e+00 MSE = 1.3321e-03 Samples= 111 Time = 47.55
+DEBUG:root:Predicting with 112 networks.
+Step      500 : NLL = -1.8726e+00 MSE = 1.3321e-03 Samples= 112 Time = 59.27
+DEBUG:root:Predicting with 113 networks.
+Step      600 : NLL = -1.8726e+00 MSE = 1.3321e-03 Samples= 113 Time = 71.01
+DEBUG:root:Predicting with 114 networks.
+Step      700 : NLL = -1.8726e+00 MSE = 1.3321e-03 Samples= 114 Time = 82.90
+DEBUG:root:Predicting with 115 networks.
+Step      800 : NLL = -1.8726e+00 MSE = 1.3321e-03 Samples= 115 Time = 94.29
+DEBUG:root:Predicting with 116 networks.
+Step      900 : NLL = -1.8726e+00 MSE = 1.3321e-03 Samples= 116 Time = 106.19
+DEBUG:root:Predicting with 117 networks.
+Validate : NLL =         nan MSE = nan
+(41, 81) (41, 1)
+DEBUG:root:Predicting with 117 networks.
+[2201.45405644 1689.92293845 1075.41615329  619.85156499  926.6970837
+  901.89631245  994.67052202  749.43245083  342.69752497 1049.28333041
+  935.17213365  875.76464568  718.18843693  740.64829633  861.68705867
+  826.42333538  806.27629305 1057.78943942  758.07576455  656.98828478
+  243.39328872  252.67803542  440.13933993  433.1564084   399.76865432
+  511.0392272   504.77117734  378.11588469  565.26286836  530.61824059
+  619.85156499  508.23618453  682.77163116  439.86721104  490.50366343
+  582.1759733   512.24689864  514.22531902  471.57451814  574.92264446
+  430.46603782] [2160 1434 1074  870  788  719  857  788  559 1017  870  860  709  731
+  742  704  617  966  702  616  300  438  444  511  477  483  494  461
+  489  527  461  468  498  492  520  463  478  459  429  462  487]
+Train RMSE 110.18453454391965
+(42, 81) (42, 1)
+DEBUG:root:Predicting with 117 networks.
+[2201.45405644 2201.45405644 1689.92293845  619.85156499 1043.70264552
+  901.89631245  994.67052202  749.43245083  342.69752497  913.999803
+ 1049.28333041  935.17213365  875.76464568  718.18843693  740.64829633
+  861.68705867  826.42333538  806.27629305 1057.78943942  758.07576455
+  656.98828478  410.82764335  284.66850779  180.34422158  564.43498352
+  672.18290094  403.01423546  511.51792187  474.97178596  619.85156499
+  619.85156499  970.19634743  905.93374243  543.2604352   479.75393149
+  395.69699955  688.18813234  886.25763185  651.99292369  801.99061218
+  745.38218905  740.64829633] [1852 2237 1709  636 1054  880  862  691  534 1014  854  842  917  876
+  757  703  648  625 1051  651  599  335  480  561  458  485  487  502
+  513  495  471  509  481  519  499  535  465  499  466  457  429  713]
+Test RMSE 190.24039470416022
+(43, 81) (43, 1)
+DEBUG:root:Predicting with 117 networks.
+[669.1367678  535.08558388 444.07115007 469.93042586 444.07115007
+ 469.93042586 430.95386599 619.85156499 669.1367678  535.08558388
+ 619.85156499 444.07115007 469.93042586 444.07115007 469.93042586
+ 315.55262881 619.85156499 535.08558388 444.07115007 469.93042586
+ 669.1367678  430.95386599 770.19430986 669.1367678  535.08558388
+ 444.07115007 469.93042586 430.95386599 315.55262881 535.08558388
+ 770.19430986 669.1367678  535.08558388 444.07115007 469.93042586
+ 669.1367678  535.08558388 444.07115007 469.93042586 619.85156499
+ 669.1367678  535.08558388 619.85156499] [1009 1063 1267 1115 1048  828  667 1836  828 1039 1078  817  932  816
+  858  876 1638 1315 1146 1155  813  772 1002  825  989 1028  850  541
+  858  935  731 1284 1158 1093  923 1935 1156  796  786 1642 1046  940
+ 1801]
+Test 2 RMSE 596.3292981084185
+(45, 81) (45, 1)
+DEBUG:root:Predicting with 117 networks.
+pybnn/run_klein.py:23: RuntimeWarning: invalid value encountered in less
+  curve_data[np.where(curve_data<0.88)] = np.NaN
+/atlas/u/adityag/software/anaconda3/envs/smacenv/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:1763: RuntimeWarning: invalid value encountered in greater
+  cond0 = self._argcheck(*args) & (scale > 0)
+/atlas/u/adityag/software/anaconda3/envs/smacenv/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:897: RuntimeWarning: invalid value encountered in greater_equal
+  return (a <= x) & (x <= b)
+/atlas/u/adityag/software/anaconda3/envs/smacenv/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:897: RuntimeWarning: invalid value encountered in less_equal
+  return (a <= x) & (x <= b)
+/atlas/u/adityag/software/anaconda3/envs/smacenv/lib/python3.6/site-packages/scipy/stats/_distn_infrastructure.py:1764: RuntimeWarning: invalid value encountered in greater
+  cond1 = self._support_mask(x, *args) & (scale > 0)
+[1191.63142915  707.76342476  707.76342476  883.44082179  459.31543576
+ 1360.51478174  883.44082179  459.31543576 1360.51478174  489.61246325
+ 1191.63142915 1191.63142915  601.49046683  601.49046683  883.44082179
+  883.44082179  545.45465915  545.45465915  707.76342476  545.45465915
+  707.76342476 1191.63142915  459.31543576  601.49046683 1360.51478174
+  489.61246325  489.61246325  459.31543576  601.49046683  498.38330597
+  707.76342476  459.31543576  545.45465915  489.61246325  498.38330597
+ 1191.63142915  489.61246325  545.45465915  498.38330597  883.44082179
+ 1360.51478174  498.38330597  498.38330597 1360.51478174  601.49046683] [ 857  761  743  778  657  914  707  530  678  443  873  864  819  772
+  608  676  910  828  907  992  748  774  672 1039  989  454  477  501
+  829  888  616  560  755  506  892 1082  600  864 1166  739 1089  837
+  775  751  943]
+Validation RMSE 299.85619036522934
