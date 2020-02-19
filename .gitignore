@@ -3,5 +3,4 @@ __pycache__/
 data/
 
 *.png
-*.csv
 .DS_Store
