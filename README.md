@@ -11,6 +11,7 @@ This repository contains much of the data, code, and visualizations associated w
 
 The codebase is implemented in Python 3.7.
 
+Note that we use the terms "policy" and "protocol" interchangeably in this code.
 
 ## Examples
 
